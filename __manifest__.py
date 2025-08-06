@@ -1,10 +1,11 @@
 {
-    'name': "Estate Module",
+    'name': "2025 Estate Module",
     'version': '1.0',
     'depends': ['base'],
-    'author': "Henry",
-    'category': 'Examples',
-    'description': "Example module",
+    'author': "Henry T",
+    'category': 'Examples HHTM',
+    'description': "Example module for testing module HHTM",
+    'application': True,
     # data files always loaded at installation
     #'data': [
         #'views/mymodule_view.xml',
