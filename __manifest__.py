@@ -7,9 +7,10 @@
     'description': "Example module for testing module HHTM",
     'application': True,
     # data files always loaded at installation
-    #'data': [
+    'data': [
         #'views/mymodule_view.xml',
-    #],
+        'security/ir.model.acess.csv',
+    ],
     # data files containing optionally loaded demonstration data
     #'demo': [
         #'demo/demo_data.xml',
