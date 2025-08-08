@@ -1,7 +1,7 @@
 from odoo import fields, models
 
 class TestModel(models.Model):
-    _name = "Test H name Model"
+    _name = "test_h_model"
     _description = "Test H description Model"
 
     name = fields.Char('H Name', required=True, translate=True)
